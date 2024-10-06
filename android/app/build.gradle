@@ -29,7 +29,9 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         manifestPlaceholders += [
-            'com.google.android.gms.games.APP_ID': 'GrabForUs'
+            'com.google.android.gms.games.APP_ID': 'GrabForUs',
+            'SUPABASE_URL': 'https://krlocqteskrlkcmtwzdy.supabase.co',
+            'SUPABASE_ANON_KEY': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtybG9jcXRlc2tybGtjbXR3emR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyMDU1MzAsImV4cCI6MjA0Mzc4MTUzMH0.UsUeTeLfF_hJo8n8WTi38TYLPTbL7honP6LLIePW274'
         ]
         resValue "string", "server_client_id", "117186132666-u3ufnu7ir91tqs11id3sl5f1rg37k8k2.apps.googleusercontent.com"
     }

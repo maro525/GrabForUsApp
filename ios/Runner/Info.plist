@@ -55,5 +55,9 @@
 					</array>
 			</dict>
 	</array>
+	<key>SUPABASE_URL</key>
+	<string>https://krlocqteskrlkcmtwzdy.supabase.co</string>
+	<key>SUPABASE_ANON_KEY</key>
+	<string>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtybG9jcXRlc2tybGtjbXR3emR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyMDU1MzAsImV4cCI6MjA0Mzc4MTUzMH0.UsUeTeLfF_hJo8n8WTi38TYLPTbL7honP6LLIePW274</string>
 </dict>
 </plist>
