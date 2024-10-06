@@ -1,0 +1,111 @@
+
+# FVM Version Cache
+.fvm/
+
+.idea/
+
+# Dart/Flutter関連
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# Flutterプロジェクト固有のファイル
+/lib/generated_plugin_registrant.dart
+
+# Androidに関連するファイル
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+
+# iOSに関連するファイル
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS関連のファイル
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# カバレッジ情報
+coverage/
+
+# パッケージ関連
+.packages.generated
+
+# シンボルファイル
+app.*.symbols
+
+# オブファスケーション関連ファイル
+app.*.map.json
+
+# Android Studio関連
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# IntelliJ関連
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode関連
+.vscode/
+
+# Flutterのバージョン管理ファイル
+.fvm/flutter_sdk
+
+# 環境変数ファイル（必要に応じて）
+.env*
+
+# Mason関連（使用している場合）
+mason-lock.json
+.mason/
+
+# その他
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
